@@ -1,0 +1,14 @@
+name: whatsmyip
+main: coolguy\whatsmyip\main
+version: 1.0.0
+api: [1.4.0]
+
+author: CoolGuy
+description: Use this to get your IP address.
+
+commands:
+ wsip:
+  description: Example command
+  usage: "Usage: /wsip"
+  permission: wsip.get
+
